@@ -1,0 +1,163 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+body{
+    background-image: url(https://media.istockphoto.com/id/624697496/es/foto/tablas-de-madera-en-apuros.jpg?s=612x612&w=0&k=20&c=eWzPaFSzGzUJzOwERORJtYIcf_Gsl7UPFlAEtJYIuV8=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 65vh;
+    border-radius: 30px;
+    margin: 30px;
+    padding: 20px;
+    border: solid 2px black;
+    box-shadow: 6px 5px 10px black;
+
+    background-color: rgba(0, 0, 0, 0.500);
+}
+
+.comprasCarrito{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border-radius: 30px;
+    margin: 30px;
+    padding: 20px;
+    border: solid 2px black;
+    box-shadow: 6px 5px 10px black;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    width: 15rem;
+    border: solid 2px black;
+    box-shadow: 6px 5px 10px black;
+    border-radius: 20px;
+    margin: 1rem;
+
+    background-color: rgba(255, 255, 255, 0.615);
+}
+.carta-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    width: 15rem;
+    border: solid 2px black;
+    box-shadow: 6px 5px 10px black;
+    border-radius: 20px;
+    margin: 1rem;
+
+    background-color: rgba(255, 255, 255, 0.615);
+}
+
+
+img{
+    width: 200px;
+    border-radius: 50%;
+    border: solid 2px black;
+}
+
+p{
+    color: red;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 5px 0px;
+    width: 100px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+.btn-2{
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 2px solid black;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.btn-2:hover , .btn:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+.contenedorBotones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin: 30px;
+    padding: 20px;
+    border: solid 2px black;
+    box-shadow: 6px 5px 10px black;
+    background-color: rgba(0, 0, 0, 0.500);
+}
+
+
+
+/* RESPONSIVE */
+
+@media (min-width: 1000px) and (max-width: 1700px){
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        height: 100vh;
+    }
+
+    .carta{
+        
+        width: 15rem;
+        border: solid 2px black;
+        box-shadow: 6px 5px 10px black;
+        border-radius: 20px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 999px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 768px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+}

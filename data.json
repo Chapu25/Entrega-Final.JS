@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nombre":"Fernet",
+        "imagen": "https://dcdn.mitiendanube.com/stores/003/075/996/products/fernet-e41e158d1e82a4de7417198456702230-640-0.png" ,
+        "precio": 10000
+    },
+    {
+        "id": 2,
+        "nombre":"Smirnoff",
+        "imagen": "https://acdn.mitiendanube.com/stores/001/476/675/products/smirnoff1-29d0b3a249d13ad3f616097124140992-640-0.jpg" ,
+        "precio": 5500
+    },
+    {
+        "id": 3,
+        "nombre":"Bombay",
+        "imagen": "https://acdn.mitiendanube.com/stores/001/756/126/products/bombay-gin1-2986569aee7555de5416261123458289-640-0.png" ,
+        "precio": 25000
+    },
+    {
+        "id": 4,
+        "nombre":"Gancia",
+        "imagen": "https://dcdn.mitiendanube.com/stores/002/150/004/products/aperitivo_gancia1-3846f1820f5d09930616547014324050-640-0.jpg" ,
+        "precio": 4400
+    },
+    {
+        "id": 5,
+        "nombre":"Absolut",
+        "imagen": "https://dcdn.mitiendanube.com/stores/001/213/476/products/vodka-absolut1-be5ef6dc06539ddd3b15909453807844-640-0.jpg" ,
+        "precio": 12000
+    },
+    {
+        "id": 6,
+        "nombre":"Sky",
+        "imagen": "https://carrefourar.vtexassets.com/arquivos/ids/187350/7791200200583_02.jpg?v=637468601046270000" ,
+        "precio": 5000
+    }
+]
